@@ -60,12 +60,12 @@ def get_content(links):
                 product_description['Number of reviews'] = product_infor[6]
                 libro['Product Description'] = product_description          
                 product_infor = []
-
+                
         print(libro)  
         scrap_web.append(libro)
         print("se guardo todo el contenido de un libro en el json")
         print("---------------------------------------------------------------------------------------")
-
+    #print(scrap_web)
     """Exportamos el scrap en formato csv"""
     #export_csv(scrap_web)
 
